@@ -1,0 +1,39 @@
+/*コメントとして挿入*/
+body {
+    font: 1.1em/1.5 sans-serif;
+    padding-top: 20px;
+}
+
+.main {
+    border: 1px solid;
+    margin: auto;
+    padding: 10px 20px 20px;
+    width: 480px;
+    border-radius: 30px / 20px;
+    box-shadow: 20px 20px 10px 0 #000;
+}
+
+h1 {
+    text-align: center;
+}
+h1 ~ div {
+    border: dashed 5px red;
+    padding: 10px;
+}
+
+div > p {
+    padding: 10px 20px;
+    margin: 0;
+    background-color: black;
+    color: white;  
+    font-weight: bold;  
+    text-align: justify;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: lightgrey;
+}
+:focus {
+    background-color: yellow;
+}
